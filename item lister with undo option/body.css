@@ -1,0 +1,56 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: aliceblue;
+}
+#Headertitle{
+    background-color: black;
+    color: deepskyblue;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+    color: deeppink;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+    height: 100%;
+    text-align: center;
+    font-size: 220%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#my-form{
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    height: 40%;
+}
+.sub:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: deepskyblue;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: black;
+    border: none;
+    height:auto;
+    width: 10%;
+}
+.btn:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: deepskyblue;
+}
